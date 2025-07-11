@@ -8,7 +8,7 @@ import cookieParser from "cookie-parser";
 const app = express();
 dotenv.config({ path: "../.env" });
 
-const PORT = process.env.PORT || 4002;
+const PORT = process.env.PORT || 4001;
 const DB_URI = process.env.MONGODB_URI;
 
 // middlewares
